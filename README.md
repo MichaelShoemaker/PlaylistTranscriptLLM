@@ -1,6 +1,9 @@
 # PlaylistTranscriptLLM
 Simple setup for downloading all transcripts from a YouTube Playlist Loading them into Elasticsearch and searching with an LLM
 
+## Data Flow Diagram
+![til](./images/YouTubeTranscriptParser.gif)
+
 ## Setup:
 In GCP enable the YouTube API V3<br>
 Generate an API_KEY<br>
