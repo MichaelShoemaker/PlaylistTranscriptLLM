@@ -8,6 +8,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 
 load_dotenv()
 API_KEY = os.getenv("YouTube_API_KEY")
+print(API_KEY)
 
 
 youtube = build('youtube', 'v3', developerKey=API_KEY)
